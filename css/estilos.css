@@ -1,0 +1,58 @@
+
+body {
+	background-image: url("bg.png");
+	background-color: black;
+	color: green;
+}
+
+
+.container {
+max-width: 820px;
+margin: 0px auto;
+margin-top: 50px;
+}
+.comment {
+float: left;
+width: 100%;
+height: auto;
+}
+.commenter {
+float: left;
+}
+.commenter img {
+width: 35px;
+height: 35px;
+}
+.comment-text-area {
+float: left;
+width:100%;
+height: auto;
+}
+.textinput {
+float:left;
+width:96%;
+min-height: 150px;
+outline: none;
+resize: none;
+border: 1px solid green;
+background:black; 
+opacity: 0.5;
+color: green;
+font-size: 23px;
+padding: 5px;
+}
+
+img {padding-top: 60px;}
+
+@font-face {
+    font-family: green;
+    src: url("green.ttf");
+}
+
+textarea {
+	font-family: green;
+}
+
+footer {padding-top: 200px; text-align: center; font-family: monospace; font-size: 15px;}
+
+a {text-decoration: none; color: green}
